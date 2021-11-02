@@ -47,3 +47,12 @@ function scrollHeader(){
     if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
+
+/*=============== NEW SWIPER ===============*/
+
+let newSwiper = new Swiper(".new-swiper", {
+    centeredSlides:true,
+    slidesPerView:'auto',
+    spaceBetween: 16,
+    loop:true,
+});
