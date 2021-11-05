@@ -84,3 +84,25 @@ function scrollUp(){
     if(this.scrollY >= 460) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
+
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/ 
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 1800,
+    delay: 250,
+    //reset:true
+})
+
+sr.reveal('.home-swiper, .new-swiper, .newsletter__container')
+sr.reveal('.category__data, .trick__content', {
+    interval: 100
+})
+sr.reveal('.about__data, .discount__img, .footer__content', {
+    origin: 'left'
+})
+sr.reveal('.about__img, .discount__data', {
+    origin: 'right'
+})
