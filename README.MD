@@ -34,10 +34,5 @@ To clone and run this application, you'll need [Git](https://git-scm.com)
 
 
 
-## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/) for more information.
-
----
-
 Made with ♥ by Christian Castro :wave: [Get in touch!](https://www.linkedin.com/in/chrisdcdev/)
 
